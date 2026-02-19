@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Online CV</title>
 </head>
+
 <body>
     <header>
         <section class="card">
         <h1>Sirelle Timothy T. Mayon</h1>
         <p>IT Student | Web Systems and Technologies</p>
+        <button id="themeToggle">Toggle Dark Mode</button> 
         </section>
+       
     </header>
+
 <div class="container">   
     <main>
         <section class="card"> 
@@ -24,11 +28,14 @@
             GitHub: <a href="https://github.com/" target="_blank">github.com</a></p>
         </section>
 
+        <button id="toggleSkills">Show/Hide Skills </button> 
         <section class="card">
+            <section class="card" id="skillsSection">
+           
             <h2>Skills</h2>
 
             <ul>
-             <li>Web Development</li>
+            <li>Web Development</li>
             </ul>
 
             <ul>
@@ -38,7 +45,8 @@
             <ul>
             <li>On Progress SQL</li>
             <ul>
-         
+
+            </section>
         </section>
 
         <section class="card">
@@ -47,7 +55,7 @@
                 border-collapse:collapse;
             }
             table, th, td { 
-                border: 1px solid black;
+                border: 3px solid black;
             }
 
             </style>
@@ -83,11 +91,11 @@
 
         <section class="card">
             <h2>Contact Me</h2>
-            <form>
-            <input type="text" placeholder="Your Name"><br><br>
-            <input type="email" placeholder="Your Email"><br><br>
+            <form>  
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
             <textarea placeholder="Message"></textarea><br><br>
-            <button type="submit">Send</button>
+            <button type="submit" id="submitBtn">Send</button>
             </form>
         </section>
 
@@ -98,5 +106,6 @@
     <p> Sirelle Timothy Mayon.</p>
     </footer>
 
+    <script src="js/script.js">  </script>
 </body>
 </html>
