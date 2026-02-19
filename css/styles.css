@@ -1,9 +1,11 @@
 /* || Global Styles */
-* {
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -17,7 +19,7 @@ body {
 }
 
 /* || Card Styling */
-.card {
+.card  {
     text-align: center;
     background: #ffffff;
     padding: 20px;
@@ -97,9 +99,19 @@ button:hover {
 }
 
 .dark-mode {
-    background-color:#222;
-    color:white;
-}
+    background-color:#000000;
+    color: white;
+    .card  {
+        text-align: center;
+        background: #424242;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgb(13, 230, 31);
+    }
+
+};
+
 
 .hidden {
     display:none;

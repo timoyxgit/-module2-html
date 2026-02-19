@@ -8,10 +8,10 @@ submitBtn.addEventListener("click",function(event){
     if (name===""||email===""){
       alert("Please fill in all required fields.");
     } else{
-     alert("Form submitted successfully!");
+     alert("Form submitted successfully!!! :) ");
     }
     });
-
+ 
 const themeToggle = document.getElementById("themeToggle");
     themeToggle.addEventListener("click",function(){
     document.body.classList.toggle("dark-mode");
